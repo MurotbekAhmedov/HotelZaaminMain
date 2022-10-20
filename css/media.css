@@ -56,7 +56,7 @@
     }
 
     .main__slide-1{
-        background: url("/assets/img/Group26-min.jpg");
+        /* background: url("/assets/img/Group26-min.jpg"); */
         left: -100vw;
         background-attachment: fixed;
     background-position: center;
@@ -64,7 +64,7 @@
     background-size: cover;
     }
     .main__slide-2{
-        background: url("/assets/img/Group24-min.jpg");
+        /* background: url("/assets/img/Group24-min.jpg"); */
         left: 100vw;
         background-attachment: fixed;
         background-position: center;
@@ -72,7 +72,7 @@
         background-size: cover;
     }
     .main__slide-3{
-        background: url("/assets/img/Group25-min.jpg");
+        /* background: url("/assets/img/Group25-min.jpg"); */
         left: 300vw;
         background-attachment: fixed;
         background-position: center;
@@ -436,7 +436,7 @@
         width:400px;
       }
     .main__slide-1{
-        background: url("/assets/img/Group26-min.jpg");
+        /* background: url("/assets/img/Group26-min.jpg"); */
         left: -100vw;
         background-attachment: fixed;
     background-position: center;
@@ -444,7 +444,7 @@
     background-size: cover;
     }
     .main__slide-2{
-        background: url("/assets/img/Group24-min.jpg");
+        /* background: url("/assets/img/Group24-min.jpg"); */
         left: 100vw;
         background-attachment: fixed;
         background-position: center;
@@ -452,7 +452,7 @@
         background-size: cover;
     }
     .main__slide-3{
-        background: url("/assets/img/Group25-min.jpg");
+        /* background: url("/assets/img/Group25-min.jpg"); */
         left: 300vw;
         background-attachment: fixed;
         background-position: center;
@@ -971,7 +971,7 @@
         width:400px;
       }
     .main__slide-1{
-        background: url("/assets/img/Group26-min.jpg");
+        /* background: url("/assets/img/Group26-min.jpg"); */
         left: -100vw;
         background-attachment: fixed;
     background-position: center;
@@ -979,7 +979,7 @@
     background-size: cover;
     }
     .main__slide-2{
-        background: url("/assets/img/Group24-min.jpg");
+        /* background: url("/assets/img/Group24-min.jpg"); */
         left: 100vw;
         background-attachment: fixed;
         background-position: center;
@@ -987,7 +987,7 @@
         background-size: cover;
     }
     .main__slide-3{
-        background: url("/assets/img/Group25-min.jpg");
+        /* background: url("/assets/img/Group25-min.jpg"); */
         left: 300vw;
         background-attachment: fixed;
         background-position: center;
