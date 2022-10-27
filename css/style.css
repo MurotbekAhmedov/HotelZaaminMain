@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    font-family: 'Manrope';
+    font-style: normal;
 }
 html{
     overflow: -moz-scrollbars-none;
@@ -236,6 +238,7 @@ color: #F7F5EC;
 /* Container-2 */
 .container__nature{
     padding: 100px 225px ;
+    padding-bottom: 0;
 }
 .container_nature__overflow{
     display: flex;
@@ -293,6 +296,7 @@ color: #F7F5EC;
     width: 75px;
     height: 75px;
     background: url(../assets/img/left.svg);
+    cursor: pointer;
     /* margin-right: 20px; */
 }
 .dots_right{
@@ -300,6 +304,7 @@ color: #F7F5EC;
     height: 75px;
     transform: rotate(180deg);
     background: url(../assets/img/left.svg);
+    cursor: pointer;
 }
 .container__nature__icons > h2{
     line-height: 45px;
@@ -743,14 +748,14 @@ p.footer__text{
 /* MENU */
 .menu__popup{
     width: 100%;
-    background: rgba(0, 0, 0,0.3);
+    background: rgba(0, 0, 0,0);
     /* opacity: 0.3; */
     z-index: 3;
     position: fixed;
     top: 0;
     height: 100vh;
     display: none;
-    opacity: 0;
+    opacity: 1;
 
     transition: all 1s ease;
     -moz-transition:   all 1s ease;
@@ -760,9 +765,11 @@ p.footer__text{
 .menu__popup.show__popup{
     display: block;
 
+
 }
 .menu__popup.show__popup.animate__show{
     opacity: 1;
+    background: rgba(0, 0, 0,0.3);
     transform: translate(0);
     -moz-transform: translate(0);
     -webkit-transform: translate(0);
@@ -973,12 +980,36 @@ p.footer__text{
 .fixed__bar.show__bar{
     display: flex;
 }
-.fixed__bar.show__bar.animate__show{
- opacity: 1;
- transition: opacity ease .3s;
+.fixed__bar.show__bar.animate__show__bar{
+ /* opacity: 1; */
+ animation: moveUp 0.5s forwards;
+ transition: opacity ease .5s;
+ transition-delay: 1s;
+}
+.fixed__bar.animate__hide__bar{
+    /* opacity: 1; */
+    animation: moveDown 0.5s forwards;
+    transition: opacity ease .5s;
+    transition-delay: 1s;
+   }
+@keyframes moveUp {
+	0% {
+		opacity: 0;
+	}
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes moveDown {
+	0% {
+		opacity: 1;
+	}
+    100%{
+        opacity: 0;
+    }
 }
 .fixed__bar{
-    transition: opacity ease .3s;
+    transition: opacity ease .5s;
     position: fixed;
     width: 80px;
     height: 80px;
@@ -1171,7 +1202,7 @@ p.footer__text{
 .button {
 	pointer-events: auto;
 	cursor: pointer;
-	background: #e7e7e7;
+	background: #000000;
 	border: none;
 	padding: 1.5rem 3rem;
 	margin: 0;
@@ -1179,9 +1210,15 @@ p.footer__text{
 	font-size: inherit;
 	position: relative;
 	display: inline-block;
+
+}
+footer .button:hover {
+    background: #131313;
+    transition: all 0s ease .3s;
 }
 .button:hover {
-    /* background: #131313; */
+    background: #e7e7e7;
+    transition: all 0s ease .3s;
 }
 .button::before,
 .button::after {
@@ -1194,10 +1231,11 @@ p.footer__text{
 
 .button--calypso {
 	overflow: hidden;
-	font-family: 'Trap';
+	/* font-family: 'Trap'; */
 	font-size: 1.15rem;
 	border-radius: 3rem;
 	color: #fff;
+
 }
 
 .button--calypso span {
@@ -1231,7 +1269,7 @@ p.footer__text{
 
 .button--calypso::before {
 	content: '';
-	background: #131313;
+	background: #e7e7e7;
 	width: 120%;
 	height: 0;
 	padding-bottom: 120%;
@@ -1241,7 +1279,10 @@ p.footer__text{
 	transform: translate3d(0,68%,0) scale3d(0,0,0);
     /* transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1); */
 }
+footer .button--calypso::before {
 
+	background: #131313;
+}
 .button--calypso:hover::before {
 	transform: translate3d(0,0,0) scale3d(1,1,1);
 	transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
@@ -1249,11 +1290,14 @@ p.footer__text{
 
 .button--calypso::after {
 	content: '';
-	background: #131313;
+	background: #e7e7e7;
 	transform: translate3d(0,-105%,0);
 	transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
 }
+footer .button--calypso::after {
 
+	background: #131313;
+}
 .button--calypso:hover::after {
 	transform: translate3d(0,0,0);
 	transition-duration: 0.05s;
@@ -1285,7 +1329,7 @@ p.footer__text{
 
 .link--calypso {
 	overflow: hidden;
-	font-family: 'Trap';
+	/* font-family: 'Trap'; */
 	/* font-size: 1.15rem; */
 	color: #fff;
 	/* transition: all ease .3s; */

@@ -57,11 +57,11 @@ function image_loaded(){
  setTimeout(function () {
  preloaders.classList.add("hide");
 //  enableScrolling()
- }, 1000);
+ }, 2000);
  setTimeout(function () {
  preloaders.classList.add("display-hide");
  preloaders.classList.remove('show')
  preloaders.classList.remove('hide')
 
- }, 2000);
+ }, 3000);
  });

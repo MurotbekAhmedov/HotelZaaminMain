@@ -22,17 +22,23 @@ popupShow(popup,menu__popup);
 
 let containerMain = document.querySelector('.container_main'),
     fixedBar = document.querySelector('.fixed__bar');
-addEventListener('scroll',()=>{
+
+if (screen.width > 1199) {
+  addEventListener('scroll',()=>{
     if(window.pageYOffset > containerMain.offsetHeight ){
         fixedBar.classList.add("show__bar");
-        setTimeout(()=>{  fixedBar.classList.add("animate__show");}, 500);
+        fixedBar.classList.add("animate__show__bar");
+        fixedBar.classList.remove("animate__hide__bar");
     } else{
 
-        setTimeout(()=>{   fixedBar.classList.remove("show__bar");}, 500);
-        fixedBar.classList.remove("animate__show");
+      setTimeout(()=>{fixedBar.classList.remove("show__bar");},300)
+        fixedBar.classList.remove("animate__show__bar");
+        fixedBar.classList.add("animate__hide__bar");
+
     }
 
 })
+}
 popupShow(fixedBar,menu__popup);
  let mainDot = document.querySelectorAll(".main_dot");
  let sliderOverflow = document.querySelector(".container_main__overflow");
@@ -80,12 +86,13 @@ popupShow(fixedBar,menu__popup);
   trfRegExp = /([-0-9.]+(?=px))/,
   swipeStartTime,
   swipeEndTime,
+  timeOutSlide = true,
   getEvent = function() {
     return (event.type.search('touch') !== -1) ? event.touches[0] : event;
   },
   slide = function() {
     if (transition) {
-      sliderTrack.style.transition = 'transform .5s';
+      sliderTrack.style.transition = 'transform 1s';
     }
     sliderTrack.style.transform = `translate3d(-${slideIndex * slideWidth}px, 0px, 0px)`;
     prev.classList.toggle('disabled', slideIndex === 0);
@@ -228,6 +235,87 @@ arrows.addEventListener('click', function(event) {
   }
   slide();
 });
+document.addEventListener('mousedown',(e)=>{
+  timeOutSlide = false;
+// console.log('down' + timeOutSlide)
+
+
+})
+  document.addEventListener('mouseup', ()=>{
+    timeOutSlide = true;
+    // console.log('up')
+  })
+  document.addEventListener('touchstart',(e)=>{
+    timeOutSlide = false;
+  // console.log('down' + timeOutSlide)
+
+
+  })
+    document.addEventListener('touchend', ()=>{
+      timeOutSlide = true;
+      // console.log('up')
+    })
+function slideshowSlider(params) {
+  if(timeOutSlide === true){
+    // console.log('yes');
+    if (slideIndex < 2) {
+      slideIndex++;
+      slide();
+    }else{
+      slideIndex = 0;
+      slide();
+    }
+    if (slideIndex == 0) {
+      mainDot[0].classList.add('active');
+      mainDot[1].classList.remove('active');
+      mainDot[2].classList.remove('active');
+    } else if(slideIndex == 1){
+      mainDot[0].classList.remove('active');
+      mainDot[1].classList.add('active');
+      mainDot[2].classList.remove('active');
+    }
+    else if(slideIndex == 2){
+      mainDot[0].classList.remove('active');
+      mainDot[1].classList.remove('active');
+      mainDot[2].classList.add('active');
+    }
+    // console.log(slideIndex)
+    // console.log(timeOutSlide)
+
+}
+}
+
+setInterval(slideshowSlider,4000)
+
+
+// setInterval(() => {
+
+//   console.log('yes');
+//   if (slideIndex < 2) {
+//     slideIndex++;
+//     slide();
+//   }else{
+//     slideIndex = 0;
+//     slide();
+//   }
+//   if (slideIndex == 0) {
+//     mainDot[0].classList.add('active');
+//     mainDot[1].classList.remove('active');
+//     mainDot[2].classList.remove('active');
+//   } else if(slideIndex == 1){
+//     mainDot[0].classList.remove('active');
+//     mainDot[1].classList.add('active');
+//     mainDot[2].classList.remove('active');
+//   }
+//   else if(slideIndex == 2){
+//     mainDot[0].classList.remove('active');
+//     mainDot[1].classList.remove('active');
+//     mainDot[2].classList.add('active');
+//   }
+//   console.log(slideIndex)
+
+
+// }, 4000);
 
 function mainDotSlide() {
   mainDot[0].addEventListener('click',(e)=>{
