@@ -1,4 +1,4 @@
-@media screen and (min-width:1536px) and (max-width:1919px){
+@media screen and (min-width:1536px) and (max-width:1910px){
 
     body{
         min-width: 1536px;
@@ -89,7 +89,7 @@
 
     /* Container__Nature */
     .container__nature {
-        padding: 4.5% 10%;
+        padding: 4% 10%;
     }
     .container__nature__info{
         width: 100%;
@@ -146,7 +146,7 @@
 
     .container__hotel {
         height: 785px;
-        padding: 4.5% 10%;
+        padding: 4% 10%;
     }
     .container__hotel__block {
         display: grid;
@@ -169,7 +169,7 @@
 
     /* Container Hotel Info */
     .container__hotel-info {
-        padding: 4.5% 10%;
+        padding: 4% 10%;
         padding-bottom: 2%;
     }
     .container__hotel-info__fb__block__dots, .container__hotel-info__sb__block__dots {
@@ -271,7 +271,7 @@
         height: 100vh;
         background: #131313;
         border-radius: 35px 35px 0px 0px;
-        padding: 4.5% 10% 3.5% 10%;
+        padding: 4% 10% 3.5% 10%;
         /* position: sticky; */
         bottom: 100vh;
         top: 10vh;
@@ -474,7 +474,7 @@
     }
     /* Container__Nature */
     .container__nature {
-        padding: 4.5% 10%;
+        padding: 4% 10%;
     }
     .container__nature__info{
         width: 100%;
@@ -569,7 +569,7 @@
 
     .container__hotel {
         height: 585px;
-        padding: 4.5% 10%;
+        padding: 4% 10%;
     }
     .container__hotel__block {
         display: grid;
@@ -596,7 +596,7 @@
 
     /* Container Hotel Info */
     .container__hotel-info {
-        padding: 4.5% 10%;
+        padding: 4% 10%;
         padding-bottom: 2%;
     }
     .container__hotel-info__fb__block__dots, .container__hotel-info__sb__block__dots {
@@ -709,7 +709,7 @@
         height: 100vh;
         background: #131313;
         border-radius: 35px 35px 0px 0px;
-        padding: 4.5% 10% 3.5% 10%;
+        padding: 4% 10% 3.5% 10%;
         /* position: sticky; */
         bottom: 100vh;
         top: 10vh;
@@ -1010,7 +1010,7 @@
     }
     /* Container__Nature */
     .container__nature {
-        padding: 4.5% 10%;
+        padding: 4% 10%;
     }
     .container__nature__info{
         width: 100%;
@@ -1172,7 +1172,7 @@
 
     .container__hotel {
         height: 1085px;
-        padding: 4.5% 10%;
+        padding: 4% 10%;
     }
     .container__hotel__block {
         display: grid;
@@ -1213,7 +1213,7 @@
 
     /* Container Hotel Info */
     .container__hotel-info {
-        padding: 4.5% 10%;
+        padding: 4% 10%;
         padding-bottom: 2%;
         margin-bottom: 50px;
         padding-bottom: 35px;
@@ -1399,7 +1399,7 @@
         height: 100vh;
         background: #131313;
         border-radius: 35px 35px 0px 0px;
-        padding: 4.5% 10% 3.5% 10%;
+        padding: 4% 10% 3.5% 10%;
         /* position: sticky; */
         bottom: 100vh;
         top: 10vh;
@@ -1735,7 +1735,7 @@
     }
     /* Container__Nature */
     .container__nature {
-        padding: 4.5% 3%;
+        padding: 4% 3%;
     }
     .container__nature__info{
         width: 100%;
@@ -1898,7 +1898,7 @@
 
     .container__hotel {
         height: 840px;
-        padding: 4.5% 2.57%;
+        padding: 4% 2.57%;
         padding-bottom: 0;
     }
     .container__hotel__block {
@@ -2413,7 +2413,7 @@
     }
     /* Container__Nature */
     .container__nature {
-        padding: 4.5% 3%;
+        padding: 4% 3%;
     }
     .container__nature__info{
         width: 100%;
@@ -2576,7 +2576,7 @@
 
     .container__hotel {
         height: 840px;
-        padding: 4.5% 2.57%;
+        padding: 4% 2.57%;
         padding-bottom: 0;
     }
     .container__hotel__block {

@@ -512,10 +512,10 @@ sliderInfo('.container__hotel-info__sb','.container__hotel-info__sb__block__over
         }
       }
       moveSlide();
-      timeInterval = 3000;
+      timeInterval = 1500;
       setInterval(timer,timeInterval)
       setTimeout( (e)=>{slideItems.forEach((element)=>{
-        element.style.transition = 'transform linear 3.1s'
+        element.style.transition = 'transform linear 1.6s'
       })},0)
 
 
@@ -541,7 +541,7 @@ sliderInfo('.container__hotel-info__sb','.container__hotel-info__sb__block__over
         let arr = [];
         let index = 0;
         let ind = index;
-        let timeInterval = 8000;
+        let timeInterval = 4000;
 
         function arrayStart() {
           for (let i = 0; i < slideItems.length; i++) {
@@ -580,7 +580,7 @@ sliderInfo('.container__hotel-info__sb','.container__hotel-info__sb__block__over
           }else{
             element.style.opacity = "1";
           }
-          element.style.transition = 'transform linear 8s'
+          element.style.transition = 'transform linear 4.1s'
           element.style.transform = `translate3d(${transForm}px, 0px ,0)`;
 
         }
