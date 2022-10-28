@@ -711,10 +711,28 @@ height: 100%;
     /* position: absolute; */
     /* left: -43%; */
     transform: translateX(-53%);
-
+    height: 100%;
     transition: transform ease .1s;
 
 
+}
+.container__hotel-gallery__slider__overflow:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 53%;
+    position: absolute;
+    top: 0px;
+    background: #000;
+}
+.container__hotel-gallery__slider__overflow:after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 53%;
+    position: absolute;
+    bottom: 10.5%;
+    background: #000;
 }
 .container__hotel-gallery{
     margin-bottom: 130px;
@@ -823,14 +841,14 @@ p.footer__text{
 /* MENU */
 .menu__popup{
     width: 100%;
-    background: rgba(0, 0, 0,0.3);
+    background: rgba(0, 0, 0,0.0);
     /* opacity: 0.3; */
     z-index: 3;
     position: fixed;
     top: 0;
     height: 100vh;
     display: none;
-    opacity: 0;
+    opacity: 1;
 
     transition: all 1s ease;
     -moz-transition:   all 1s ease;
@@ -840,9 +858,11 @@ p.footer__text{
 .menu__popup.show__popup{
     display: block;
 
+
 }
 .menu__popup.show__popup.animate__show{
     opacity: 1;
+    background: rgba(0, 0, 0,0.3);
     transform: translate(0);
     -moz-transform: translate(0);
     -webkit-transform: translate(0);
@@ -1044,7 +1064,7 @@ p.footer__text{
 
   }
   #preloader.hide{
-    opacity: 0;
+    opacity: 1;
     height: 0;
     bottom: 0;
     /* width: 50%; */
@@ -1069,20 +1089,26 @@ p.footer__text{
     opacity: 0;
   }
   /* Button */
-.button {
+  .button {
 	pointer-events: auto;
 	cursor: pointer;
-	background: #e7e7e7;
+	background: #000000;
 	border: none;
-	padding: 14px 30px;
+	padding: 1rem 3rem;
 	margin: 0;
 	font-family: inherit;
 	font-size: inherit;
 	position: relative;
 	display: inline-block;
+
+}
+footer .button:hover {
+    background: #131313;
+    transition: all 0s ease .3s;
 }
 .button:hover {
-    /* background: #131313; */
+    background: #e7e7e7;
+    transition: all 0s ease .3s;
 }
 .button::before,
 .button::after {
@@ -1099,6 +1125,7 @@ p.footer__text{
 	font-size: 1.15rem;
 	border-radius: 3rem;
 	color: #fff;
+
 }
 
 .button--calypso span {
@@ -1132,7 +1159,7 @@ p.footer__text{
 
 .button--calypso::before {
 	content: '';
-	background: #131313;
+	background: #e7e7e7;
 	width: 120%;
 	height: 0;
 	padding-bottom: 120%;
@@ -1142,7 +1169,10 @@ p.footer__text{
 	transform: translate3d(0,68%,0) scale3d(0,0,0);
     /* transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1); */
 }
+footer .button--calypso::before {
 
+	background: #131313;
+}
 .button--calypso:hover::before {
 	transform: translate3d(0,0,0) scale3d(1,1,1);
 	transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
@@ -1150,19 +1180,20 @@ p.footer__text{
 
 .button--calypso::after {
 	content: '';
-	background: #131313;
+	background: #e7e7e7;
 	transform: translate3d(0,-105%,0);
 	transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
 }
+footer .button--calypso::after {
 
+	background: #131313;
+}
 .button--calypso:hover::after {
 	transform: translate3d(0,0,0);
 	transition-duration: 0.05s;
 	transition-delay: 0.4s;
 	transition-timing-function: linear;
 }
-
-
 
 /* Link */
 

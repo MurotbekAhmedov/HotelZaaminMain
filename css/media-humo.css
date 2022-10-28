@@ -147,6 +147,9 @@
         overflow: hidden;
     }
     /* Gallery */
+    .container__hotel-gallery{
+        margin-bottom: 0;
+    }
     .container__hotel-gallery__slide{
         width: 400px;
         padding-right: 30px;
@@ -156,6 +159,24 @@
         width: 100%;
         padding-right: 0px;
         height:100%;
+    }
+    .container__hotel-gallery__slider__overflow:before{
+        content: "";
+        width: 100%;
+        height: 1px;
+        left: 53%;
+        position: absolute;
+        top: 0px;
+        background: #000;
+    }
+    .container__hotel-gallery__slider__overflow:after{
+        content: "";
+        width: 100%;
+        height: 1px;
+        left: 53%;
+        position: absolute;
+        bottom: 21%;
+        background: #000;
     }
     /* Footer */
     .footer__block__contacts__top{

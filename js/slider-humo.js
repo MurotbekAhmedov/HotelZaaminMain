@@ -4,7 +4,7 @@ function slideShow() {
     let arr = [];
     let index = 0;
     let ind = index;
-    let timeInterval = 1000;
+    let timeInterval = 5000;
     // element.style.transition = 'transform linear 3.2s'
     function arrayStart() {
       for (let i = 0; i < slideItems.length; i++) {
@@ -39,10 +39,10 @@ function slideShow() {
     }
   }
   moveSlide();
-  timeInterval = 1500;
+  // timeInterval = 1500;
   setInterval(timer,timeInterval)
   setTimeout( (e)=>{slideItems.forEach((element)=>{
-    element.style.transition = 'transform linear 1.6s'
+    element.style.transition = 'transform linear 5.1s'
   })},0)
 
 
@@ -416,7 +416,7 @@ function slideShow() {
     let arr = [];
     let index = 0;
     let ind = index;
-    let timeInterval = 4000;
+    let timeInterval = 10000;
 
     function arrayStart() {
       for (let i = 0; i < slideItems.length; i++) {
@@ -455,7 +455,7 @@ function slideShow() {
       }else{
         element.style.opacity = "1";
       }
-      element.style.transition = 'transform linear 4s'
+      element.style.transition = 'transform linear 10.1s'
       element.style.transform = `translate3d(${transForm}px, 0px ,0)`;
 
     }

@@ -206,7 +206,7 @@ function sliderNature(sliderItem,sliderListItem,sliderTrackItem,slidesItem,arrow
 sliderNature('.container__nature__slider','.container_nature__overflow','.slider-track','.nature__slide','.container__nature__slider__dots ');
 
 function infoHTML() {
-  if (screen.width < 1536) {
+  if (screen.width < 1200) {
     let sliderTrack = document.querySelector(".container__hotel-info__fb__block__overflow__slider-track"),
     sliderTrackSb = document.querySelector(".container__hotel-info__sb__block__overflow__slider-track"),
         sliderItem = document.querySelectorAll(".container__hotel-info__fb__block__overflow__slider");
@@ -477,7 +477,7 @@ sliderInfo('.container__hotel-info__sb','.container__hotel-info__sb__block__over
         let arr = [];
         let index = 0;
         let ind = index;
-        let timeInterval = 1000;
+        let timeInterval = 5000;
         // element.style.transition = 'transform linear 3.2s'
         function arrayStart() {
           for (let i = 0; i < slideItems.length; i++) {
@@ -511,11 +511,11 @@ sliderInfo('.container__hotel-info__sb','.container__hotel-info__sb__block__over
 
         }
       }
-      moveSlide();
-      timeInterval = 1500;
+      timer();
+      // timeInterval = 6000;
       setInterval(timer,timeInterval)
       setTimeout( (e)=>{slideItems.forEach((element)=>{
-        element.style.transition = 'transform linear 1.6s'
+        element.style.transition = 'transform linear 5.1s'
       })},0)
 
 
@@ -541,7 +541,7 @@ sliderInfo('.container__hotel-info__sb','.container__hotel-info__sb__block__over
         let arr = [];
         let index = 0;
         let ind = index;
-        let timeInterval = 4000;
+        let timeInterval = 10000;
 
         function arrayStart() {
           for (let i = 0; i < slideItems.length; i++) {
@@ -580,7 +580,7 @@ sliderInfo('.container__hotel-info__sb','.container__hotel-info__sb__block__over
           }else{
             element.style.opacity = "1";
           }
-          element.style.transition = 'transform linear 4.1s'
+          element.style.transition = 'transform linear 10.1s'
           element.style.transform = `translate3d(${transForm}px, 0px ,0)`;
 
         }
