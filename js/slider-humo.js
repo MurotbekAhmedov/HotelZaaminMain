@@ -455,14 +455,17 @@ function slideShow() {
       }else{
         element.style.opacity = "1";
       }
-      element.style.transition = 'transform linear 10.1s'
+      // element.style.transition = 'transform linear 10.1s'
       element.style.transform = `translate3d(${transForm}px, 0px ,0)`;
 
     }
   }
   // timeInterval = 4000;
   timer();
-  setInterval(timer,timeInterval)
+  setInterval(timer,timeInterval);
+  setTimeout( (e)=>{slideItems.forEach((element)=>{
+    element.style.transition = 'transform linear 10.1s'
+  })},0)
   //  window.addEventListener('scroll',(e)=>{
   //   // setInterval(timer,timeInterval)
   //   if(e.target){

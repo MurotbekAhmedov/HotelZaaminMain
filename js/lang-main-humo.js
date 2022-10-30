@@ -1,7 +1,7 @@
 const langArr = {
   "link-company" :  {
-      "ru": 'Зона кемпинга “Хумо”',
-      "en": '"Humo"lager maydoni',
+      "ru": 'Зона отдыха “Юность”',
+      "en": '"Yunost"dam olish maskani',
 
   },
   "link-contacts": {
@@ -14,70 +14,70 @@ const langArr = {
     "en": "Yunost - Zaamin tog'laridagi dam olish maskani",
 
 },
-"nature-header": {
-    "ru": "Уютный комплекс для вашего отдыха",
-    "en": "Dam olish uchun qulay kompleks",
+"main-zone": {
+    "ru": "Зона кемпинга",
+    "en": "Lager maydoni",
 
 },
-"nature-info" :  {
-  "ru": "Горный воздух, красивая природа, уютные номера. На территории есть бассейн, футбольное поле, настольный теннис, бильярд и беседки для отдыхана на свежем воздухе.",
-  "en": "Tog ' havosi, go'zal tabiat, qulay xonalar. Hududda basseyn, futbol maydoni, stol tennisi, bilyard va ochiq havoda dam olish uchun gazebolar mavjud.",
+"main-zone-2" :  {
+  "ru": "Номера для 4 человека",
+  "en": "4 kishilik xonalar",
 
 },
-"nature-info-two": {
-  "ru": "Каждый номер оснащён:",
-  "en": "Har bir xona jihozlangan:",
+"nature-info-1": {
+  "ru": "Завораживающая природа гор",
+  "en": "Tog'larning ajoyib tabiati",
 
 },
-"hotel-header": {
-  "ru": "Гостиница",
-  "en": "Mexmonxona",
+"nature-info-2": {
+  "ru": "Свежий воздух и красивая природа в горах Заамина",
+  "en": "Zaamin tog'larida toza havo va go'zal tabiat",
 
 },
-  "hotel-info": {
-      "ru": "Условия гостиницы позволяют ждать наших гостей в любое время года: как красивой весной, так и морозной зимой!",
-      "en": "Mehmonxona sharoitlari mehmonlarimizni yilning istalgan vaqtida kutishga imkon beradi: go'zal bahorda ham, sovuq qishda ham!",
+  "hotel-rooms-1": {
+      "ru": "Уютные номера",
+      "en": "Qulay xonalar",
 
   },
-  "hotel-room-header": {
-      "ru": "Номера в гостинице",
-      "en": "Mehmonxona xonalari",
+  "hotel-rooms-2": {
+      "ru": "В номерах уважаемых гостей круглосуточно придерживаем чистоту и свежесть. А также они обставлены необходимой мебелью и оборудованием для полноценного отдыха и комфорта гостей.",
+      "en": "Hurmatli mehmonlarning xonalarida biz kecha-kunduz poklik va tazelikni saqlaymiz. Shuningdek, ular mehmonlarning yaxshi dam olishlari va qulayliklari uchun zarur mebel va jihozlar bilan jihozlangan.",
 
   },
-  "hotel-room-info": {
-      "ru": "Номера нашей гостиницы обставлены комфортной мебелью, также бытовой техникой, для полного комфортного проживания наших гостей. Гарантируем чистоту и порядок в наших номерах. Выполняется тщательная уборка после каждого посетителя.",
-      "en": "Mehmonxonamizning xonalari mehmonlarimiz qulay yashashi uchun mebellar, shuningdek, maishiy texnika bilan jihozlangan. Xonalarimizda tozalik va tartibni kafolatlaymiz. Har bir tashrif buyuruvchidan keyin yaxshilab tozalash amalga oshiriladi.",
+  "hotel-rooms-3": {
+      "ru": "Комфорт, уют, чистота",
+      "en": "Qulaylik va poklik",
 
   },
-  "hotel-room-header-two": {
-    "ru": "Зона Кемпинга",
-    "en": "Lager Maydoni",
+  "hotel-rooms-4": {
+    "ru": "Атмосфера прекрасной природы",
+    "en": "Ajoyib tabiat atmosferasi",
 
 },
-  "hotel-room-info-two": {
-    "ru": "“Юность” имеет просторную и уютную зону кемпинга, куда могут обустраивается до шести человек. В зоне кемпинга есть все условия, для благоустройства гостей и их отдыха: телевизор, холодильник, плита и беседки  для времяпровождения с семьей или с друзьями",
-    "en": "Mehmonxonada olti kishigacha joylashishi mumkin bo'lgan keng va qulay kemping zona mavjud. Kemping zonasi hududida mehmonlarni hordiqi uchun barcha sharoitlar mavjud: televizor, muzlatgich, pechka va kemping zona hovlisida oilangiz yoki do'stlaringiz bilan vaqt o'tkazish uchun.",
+  "hotel-rooms-5": {
+    "ru": "Не допустим вашим детям заскучать: наша безопасная и яркая детская площадка будет радовать малышей, пока взрослые отдыхают!",
+    "en": "Farzandlaringiz zerikishiga yo'l qo'ymaymiz: bizning xavfsiz va yorqin o'yin maydonchamiz kattalar dam olayotganda bolalarni quvontiradi!",
 
   },
 
-    "hotel-benefits-header": {
-      "ru": "Уютный комплекс для вашего отдыха",
-      "en": "Dam olish uchun qulay kompleks",
+    "hotel-rooms-6": {
+      "ru": "Река, детская площадка",
+      "en": "Daryo, bolalar maydonchasi",
 
     },
-    "hotel-benefits-info": {
-      "ru": "Наша гостиница расположена в горной местности, что позволяет нашим гостям не только отдыхать, но и укрепить здоровье с помощью чистого горного воздуха.",
-      "en": "Bizning mehmonxonamiz tog'li hududda joylashgan bo'lib, mehmonlarimizga nafaqat dam olish, balki toza tog ' havosi bilan salomatlikni mustahkamlash imkonini beradi.",
+    "hotel-head": {
+      "ru": "Наша зона отдыха ждет гостей круглогодично: как теплой весной, так и прохладной осенью",
+      "en": "Bizning dam olish maskanimiz yil davomida mehmonlarni kutmoqda: issiq bahorda ham, kuzda ham salqin",
 
     },
-    "hotel-benefits-info-two": {
-      "ru": "Вкусная еда, бассейн, футбольное поле, а также теннис и бильярд помогут вам получить максимальное удовольствие в нашей зоне отдыха “Юность”",
-      "en": 'Mazali taomlar, basseyn, futbol maydoni, tennis va bilyard bizning "Yoshlik" dam olish maskanimizdan maksimal darajada foydalanishga yordam beradi',
+    "hotel-benefits-1": {
+      "ru": "Тапчаны и беседки",
+      "en": 'Tapchan va gazebos',
 
     },
-    "hotel-gallery": {
-      "ru": "Наша гостиница ждет гостей круглогодично: как теплой весной, так и прохладной осенью.",
-      "en": "Bizning mehmonxonamiz yil davomida mehmonlarni kutmoqda: iliq bahorda ham, salqin kuzda ham.",
+    "hotel-benefits-2": {
+      "ru": "Чтобы проводить больше времени на природе  наслаждаясь горной природой и чистым воздухом, во дворе установлены тапчаны и беседки, где можно отдыхать всей семьей.",
+      "en": "Tabiatda ko'proq vaqt o'tkazish uchun tog ' tabiati va toza havodan zavqlanib, hovlida butun oila bilan dam olishingiz mumkin bo'lgan tapchan va gazebos mavjud.",
 
     },
     "footer-header": {
@@ -103,20 +103,20 @@ const langArr = {
     },
 
     "menu-popup-rooms": {
-      "ru": 'Номера в гостинице',
-      "en": 'Mehmonxona xonalari',
+      "ru": 'Номера',
+      "en": 'Xonalar',
 
     },
 
     "menu-popup-camping": {
-      "ru": 'Кемпинг',
-      "en": 'Lager',
+      "ru": 'Отдых',
+      "en": 'Dam olish',
 
     },
 
     "menu-popup-camping-zone": {
-      "ru": 'Зона кемпинга в “Хумо”',
-      "en": '"Humo"lager maydoni',
+      "ru": 'Зона кемпинга в “Юность”',
+      "en": '"Yunost"dagi lager maydoni',
 
     },
 
@@ -131,9 +131,10 @@ const langArr = {
       "en": 'Joylashuv',
 
     },
+
     "hotel-request-one": {
-      "ru": 'Оставить заявку',
-      "en": 'Arizani qoldiring',
+      "ru": 'Связаться с нами',
+      "en": "Biz bilan bog'laning",
 
     },
     "hotel-request-two": {
@@ -142,11 +143,6 @@ const langArr = {
 
     },
     "hotel-request-three": {
-      "ru": 'Связаться с нами',
-      "en": "Biz bilan bog'laning",
-
-    },
-    "hotel-request-four": {
       "ru": 'Связаться с нами',
       "en": "Biz bilan bog'laning",
 
@@ -256,6 +252,5 @@ const langArr = {
       "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
 
     },
-
 }
 

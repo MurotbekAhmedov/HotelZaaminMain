@@ -43,6 +43,9 @@ popupShow(fixedBar,menu__popup);
  let mainDot = document.querySelectorAll(".main_dot");
  let sliderOverflow = document.querySelector(".container_main__overflow");
  let parallax = document.querySelectorAll('.parallax');
+ parallax.forEach((item)=>{
+  item.style.backgroundPositionY = window.pageYOffset * .3 + "px";
+});
  window.addEventListener('scroll',(e)=>{
      let offset = window.pageYOffset;
      parallax.forEach((item)=>{
