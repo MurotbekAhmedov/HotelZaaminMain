@@ -115,7 +115,7 @@ const langArr = {
     },
 
     "menu-popup-camping-zone": {
-      "ru": 'Зона кемпинга в “Хумо”',
+      "ru": 'Зона кемпинга “Хумо”',
       "en": '"Humo"lager maydoni',
 
     },
@@ -256,6 +256,14 @@ const langArr = {
       "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
 
     },
+    "popup-title": {
+      "ru": "Мы с вами свяжемся!",
+      "en": "Biz siz bilan bog'lanamiz!",
+    },
+    "request-popup-button": {
+      "ru": "Оставить заявку",
+      "en": "Arizani qoldiring",
 
+  }
 }
 

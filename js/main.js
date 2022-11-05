@@ -1,14 +1,16 @@
 let popup = document.querySelector(".header__menu__bar"),
     menu__popup = document.querySelector(".menu__popup");
+    let html = document.querySelector('html'),
+        menu_link = document.querySelectorAll('.menu_link')
 function popupShow(popupBlock, menuPopup) {
     popupBlock.addEventListener('click',(e)=>{
         if(popupBlock.classList.contains('show__menu')){
-            // popupBlock.classList.remove("show__menu");
             setTimeout(()=>{   popupBlock.classList.remove("show__menu");}, 800);
-            // menu__popup.classList.remove("show__popup");
             menuPopup.classList.remove("animate__show");
+            html.style.overflow = 'visible';
             setTimeout(()=>{  menuPopup.classList.remove("show__popup");}, 800);
         }else{
+          html.style.overflow = 'hidden';
             popupBlock.classList.add("show__menu");
             menuPopup.classList.add("show__popup");
             setTimeout(()=>{menuPopup.classList.add("animate__show")}, 0);
@@ -16,7 +18,13 @@ function popupShow(popupBlock, menuPopup) {
 
 
     })
-
+    menu_link.forEach((item)=>{
+      item.addEventListener('click',(e)=>{
+        setTimeout(()=>{   popupBlock.classList.remove("show__menu");}, 800);
+        menuPopup.classList.remove("animate__show");
+        html.style.overflow = 'visible';
+        setTimeout(()=>{  menuPopup.classList.remove("show__popup");}, 800);
+    })})
 }
 popupShow(popup,menu__popup);
 
@@ -288,7 +296,7 @@ function slideshowSlider(params) {
 }
 }
 
-setInterval(slideshowSlider,4000)
+setInterval(slideshowSlider,6000)
 
 
 // setInterval(() => {
@@ -365,4 +373,40 @@ function scrollHandler(e) {
 }
 }  })
  }
- SliderMain()
+ SliderMain();
+
+window.addEventListener("DOMContentLoaded", function(){
+  let popupClose = document.querySelector(".popup_order__close"),
+  popupBody = document.querySelector(".popup_order__body"),
+  popupContainer = document.querySelector(".popup_order"),
+  popupShow = document.querySelectorAll(".popup__show");
+
+  function popupCloseEvent(){
+    popupContainer.classList.add("hide_order")
+    popupContainer.classList.remove("show_order")
+    setTimeout(() =>{ popupBody.classList.remove("show")},100)
+    setTimeout(() =>{popupContainer.style.display = "none"},800)
+
+  }
+  if (!popupContainer) return;
+  function popupEvent(params) {
+    popupShow.forEach((item)=>{
+      item.addEventListener("click",(e)=>{
+        popupContainer.style.display = "block";
+        setTimeout(() =>{ popupContainer.classList.remove("hide_order")},100)
+        setTimeout(() =>{ popupContainer.classList.add("show_order")},200)
+        setTimeout(() =>{ popupBody.classList.add("show")},200);
+
+
+      })
+    })
+
+    popupClose.addEventListener("click", (e) => {
+
+      popupCloseEvent()
+
+
+    })
+  }
+  popupEvent();
+});

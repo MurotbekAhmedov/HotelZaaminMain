@@ -116,6 +116,16 @@ function sliderNature(sliderItem,sliderListItem,sliderTrackItem,slidesItem,arrow
             allowSwipe = true;
           }
         }
+        if (screen.width < 767) {
+          if (slideIndex === (slides.length = slides.length -1)) {
+            if (posInit > posX1) {
+              setTransform(transform, lastTrf);
+              return;
+            } else {
+              allowSwipe = true;
+            }
+          }
+        }
 
         if (posInit > posX1 && transform < nextTrf || posInit < posX1 && transform > prevTrf) {
           reachEdge();

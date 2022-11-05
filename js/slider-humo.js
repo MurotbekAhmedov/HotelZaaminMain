@@ -235,7 +235,10 @@ function slideShow() {
 
 
    }
-   SliderMain()
+
+   if (screen.width > 768) {
+    SliderMain()
+  }
    function SliderRooms(){
     let slider = document.querySelector('.container__hotel-rooms'),
     sliderList = slider.querySelector('.container__hotel-rooms__slider'),
@@ -409,6 +412,7 @@ function slideShow() {
 
 
    }
+
    SliderRooms()
    function slideShowText() {
     let slideItems = document.querySelectorAll('.container__nature__block_head');

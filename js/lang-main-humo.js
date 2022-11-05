@@ -10,8 +10,8 @@ const langArr = {
 
   },
 "logo-info": {
-    "ru": "Юность - Зона отдыха в горах Заамина",
-    "en": "Yunost - Zaamin tog'laridagi dam olish maskani",
+    "ru": "Хумо - Зона отдыха в горах Заамина",
+    "en": "Humo - Zaamin tog'laridagi dam olish maskani",
 
 },
 "main-zone": {
@@ -91,8 +91,8 @@ const langArr = {
 
     },
     "footer-info-two": {
-      "ru": 'Зона кемпинга “Хумо”',
-      "en": '"Humo"lager maydoni',
+      "ru": 'Зона отдыха “Юность”',
+      "en": '"Yunost"dagi dam olish maskani',
 
     },
 
@@ -115,8 +115,8 @@ const langArr = {
     },
 
     "menu-popup-camping-zone": {
-      "ru": 'Зона кемпинга в “Юность”',
-      "en": '"Yunost"dagi lager maydoni',
+      "ru": 'Зона отдыха в “Юность”',
+      "en": '"Yunost"dagi dam olish maskani',
 
     },
 
@@ -252,5 +252,14 @@ const langArr = {
       "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
 
     },
+    "popup-title": {
+      "ru": "Мы с вами свяжемся!",
+      "en": "Biz siz bilan bog'lanamiz!",
+    },
+    "request-popup-button": {
+      "ru": "Оставить заявку",
+      "en": "Arizani qoldiring",
+
+  }
 }
 
