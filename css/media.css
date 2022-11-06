@@ -248,13 +248,13 @@
         margin-bottom: 130px;
     }
     .container__hotel-gallery__text {
-        margin: 54px 0 0 0;
+        margin: 24px 0 0 0;
     }
     .container__hotel-gallery__text > h2{
         text-align: center;
         width: 964px;
-        height: 20vh;
-        /* font-size: 40px; */
+        height: 40vh;
+        font-size: 50px;
         margin: auto auto;
         margin-bottom: 25%;
         /* transform: translateY(150px);
@@ -742,13 +742,28 @@
     .container__hotel-gallery {
         margin-bottom: 100px;
     }
-    .container__hotel-gallery__text > h2 {
-        text-align: center;
-        width: 664px;
-    }
     .container__hotel-gallery__text {
-        margin: 104px 0 0 0;
+        margin: 24px 0 0 0;
     }
+    .container__hotel-gallery__text > h2{
+        text-align: center;
+        width: 864px;
+        height: 40vh;
+        font-size: 45px;
+        margin: auto auto;
+        margin-bottom: 25%;
+        /* transform: translateY(150px);
+        -moz-transform:translateY(150px);
+        -o-transform:translateY(150px);
+        -webkit-transform:translateY(150px); */
+        transition: transform linear .3s,opacity linear .5s ;
+        -moz-transition:transform linear .3s,opacity linear .5s ;
+        -o-transition:transform linear .3s,opacity linear .5s ;
+        -webkit-transition:transform linear .3s,opacity linear .5s;
+        opacity: 0;
+
+    }
+
     .container__hotel-gallery__slider {
         position: relative;
         overflow: hidden;

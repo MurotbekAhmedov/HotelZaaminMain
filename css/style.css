@@ -828,11 +828,11 @@ h1._active_scroll{
 /* CONTAINER GALLERY */
 .container__hotel-gallery__text > h2{
     text-align: center;
-    width: 964px;
-    height: 20vh;
-    font-size: 40px;
+    width: 1300px;
+    height: 40vh;
+    font-size: 70px;
     margin: auto auto;
-    margin-bottom: 35%;
+    margin-bottom: 20%;
     /* transform: translateY(150px);
     -moz-transform:translateY(150px);
     -o-transform:translateY(150px);
@@ -854,7 +854,7 @@ h1._active_scroll{
 }
 .container__hotel-gallery__text{
     /* margin: 154px 0 0 0; */
-    height: 120vh;
+    height: 130vh;
     display: flex;
     justify-content: center;
 }

@@ -115,7 +115,7 @@ const langArr = {
     },
 
     "menu-popup-camping-zone": {
-      "ru": 'Зона отдыха в “Юность”',
+      "ru": 'Зона отдыха “Юность”',
       "en": '"Yunost"dagi dam olish maskani',
 
     },

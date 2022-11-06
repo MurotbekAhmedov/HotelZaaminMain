@@ -7,12 +7,14 @@ function popupShow(popupBlock, menuPopup) {
         if(popupBlock.classList.contains('show__menu')){
 
             setTimeout(()=>{   popupBlock.classList.remove("show__menu");}, 800);
-            html.style.overflow = 'visible';
+
             menuPopup.classList.remove("animate__show");
+            html.style.overflow = 'visible';
             setTimeout(()=>{  menuPopup.classList.remove("show__popup");}, 800);
         }else{
+          html.style.overflow = 'hidden';
             popupBlock.classList.add("show__menu");
-            html.style.overflow = 'hidden';
+           
             menuPopup.classList.add("show__popup");
             setTimeout(()=>{menuPopup.classList.add("animate__show")}, 0);
         }
