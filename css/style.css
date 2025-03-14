@@ -196,6 +196,7 @@ h1._active_scroll{
     flex-direction: row;
     /* transition: all ease .5s; */
 }
+/*  */
 .main__slide-1{
     background: url("../assets/img/Group26-min.jpg");
     left: -1920px;
