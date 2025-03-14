@@ -181,15 +181,15 @@ color: #F7F5EC;
 }
 .main__slide-1{
     background: url("../assets/img/Group26-min.jpg");
-    left: -1920px;
+    left: -100vw;
 }
 .main__slide-2{
     background: url("../assets/img/Group24-min.jpg");
-    left: 1920px;
+    left: 100vw;
 }
 .main__slide-3{
     background: url("../assets/img/Group25-min.jpg");
-    left: 5760px;
+    left: 300vw;
 }
 /* .main__slide-1 > img{
     width: 100%;
