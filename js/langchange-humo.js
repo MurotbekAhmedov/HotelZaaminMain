@@ -8,15 +8,9 @@ let ruLanguage = document.querySelector(".ru-language");
 let enLanguage = document.querySelector(".en-language");
 let ruLanguageFooter = document.querySelector(".footer-ru-language");
 let enLanguageFooter = document.querySelector(".footer-en-language");
-// let formLaw = document.querySelector(".form__law");
-// let formName = document.querySelector(".form_name");
-// let formPhone = document.querySelector(".form_phone");
-// let formMessage = document.querySelector(".form_message");
 let popupName = document.querySelector(".popup__name");
 let popupPhone = document.querySelector(".popup__phone");
 let popupMessage = document.querySelector(".popup__message");
-// let lang ;
-
 let formLaw = document.querySelector(".form__law")
 let lang ;
 div.forEach((item)=>{
@@ -60,18 +54,7 @@ function changeLanguage() {
     }
 }
 
-// ruLanguage.addEventListener('click',(e)=>{
-//      ruLanguage.classList.remove("order-1");
-//      ruLanguage.classList.add("order-2");
-//      enLanguage.classList.remove("order-2");
-//      enLanguage.classList.add("order-1");
-//  })
-//  enLanguage.addEventListener('click',(e)=>{
-//      enLanguage.classList.remove("order-1");
-//      enLanguage.classList.add("order-2");
-//      ruLanguage.classList.remove("order-2");
-//      ruLanguage.classList.add("order-1");
-//  })
+
 changeLanguage();
 if(lang == "en"){
     langTitle.forEach((item)=>{

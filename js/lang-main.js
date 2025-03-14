@@ -11,7 +11,7 @@ const langArr = {
   },
 "logo-info": {
     "ru": "Юность - Зона отдыха в горах Заамина",
-    "en": "Юность - Zaamin tog'laridagi dam olish maskani",
+    "en": "Yunost - Zaamin tog'laridagi dam olish maskani",
 
 },
 "nature-header": {
@@ -115,7 +115,7 @@ const langArr = {
     },
 
     "menu-popup-camping-zone": {
-      "ru": 'Зона кемпинга в “Хумо”',
+      "ru": 'Зона кемпинга “Хумо”',
       "en": '"Humo"lager maydoni',
 
     },
@@ -196,6 +196,74 @@ const langArr = {
       "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
 
     },
+    "animate-text-four-one": {
+      "ru": 'Красивая природа&nbsp; /&nbsp;&nbsp;',
+      "en": "Сhiroyli tabiat&nbsp; /&nbsp;&nbsp;",
 
+    },
+    "animate-text-four-two": {
+      "ru": 'Отдых в горах&nbsp; /&nbsp;&nbsp;',
+      "en": "Tog'larda dam olish&nbsp; /&nbsp;&nbsp;",
+
+    },
+    "animate-text-four-three": {
+      "ru": 'Совершенство и комфорт&nbsp; /&nbsp;',
+      "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
+
+    },
+    "animate-text-five-one": {
+      "ru": 'Красивая природа&nbsp; /&nbsp;&nbsp;',
+      "en": "Сhiroyli tabiat&nbsp; /&nbsp;&nbsp;",
+
+    },
+    "animate-text-five-two": {
+      "ru": 'Отдых в горах&nbsp; /&nbsp;&nbsp;',
+      "en": "Tog'larda dam olish&nbsp; /&nbsp;&nbsp;",
+
+    },
+    "animate-text-five-three": {
+      "ru": 'Совершенство и комфорт&nbsp; /&nbsp;',
+      "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
+
+    },
+    "animate-text-six-one": {
+      "ru": 'Красивая природа&nbsp; /&nbsp;&nbsp;',
+      "en": "Сhiroyli tabiat&nbsp; /&nbsp;&nbsp;",
+
+    },
+    "animate-text-six-two": {
+      "ru": 'Отдых в горах&nbsp; /&nbsp;&nbsp;',
+      "en": "Tog'larda dam olish&nbsp; /&nbsp;&nbsp;",
+
+    },
+    "animate-text-six-three": {
+      "ru": 'Совершенство и комфорт&nbsp; /&nbsp;',
+      "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
+
+    },
+    "animate-text-seven-one": {
+      "ru": 'Красивая природа&nbsp; /&nbsp;&nbsp;',
+      "en": "Сhiroyli tabiat&nbsp; /&nbsp;&nbsp;",
+
+    },
+    "animate-text-seven-two": {
+      "ru": 'Отдых в горах&nbsp; /&nbsp;&nbsp;',
+      "en": "Tog'larda dam olish&nbsp; /&nbsp;&nbsp;",
+
+    },
+    "animate-text-seven-three": {
+      "ru": 'Совершенство и комфорт&nbsp; /&nbsp;',
+      "en": "Mukammallik va qulaylik&nbsp; /&nbsp;",
+
+    },
+    "popup-title": {
+      "ru": "Мы с вами свяжемся!",
+      "en": "Biz siz bilan bog'lanamiz!",
+    },
+    "request-popup-button": {
+      "ru": "Оставить заявку",
+      "en": "Arizani qoldiring",
+
+  }
 }
 
